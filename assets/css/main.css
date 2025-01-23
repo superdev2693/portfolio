@@ -690,7 +690,9 @@ section,
   background: none;
   border-radius: 0;
 }
-
+.skill{
+  font-size: medium;
+}
 .skills .progress .skill {
   color: var(--heading-color);
   padding: 0;
