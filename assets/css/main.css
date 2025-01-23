@@ -149,7 +149,6 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  padding: 0 15px;
   width: 300px;
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
@@ -267,7 +266,7 @@ h6 {
 .navmenu a,
 .navmenu a:focus {
   color: var(--nav-color);
-  padding: 15px 10px;
+  padding: 15px 30px;
   font-family: var(--nav-font);
   font-size: 16px;
   font-weight: 400;
@@ -310,6 +309,7 @@ h6 {
 .navmenu .active,
 .navmenu .active:focus {
   color: var(--nav-hover-color);
+  background-color: #FFFFFF16;
 }
 
 .navmenu a:hover .navicon,
@@ -577,7 +577,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 700;
 }
 
@@ -1278,4 +1278,27 @@ section,
 
 #navmenu>ul>li:hover {
   background-color: #FFFFFF16;
+}
+
+.container>.dev{
+  padding-left: 4rem;
+}
+
+.container>.name{
+  padding-left: 4rem;
+}
+
+.container>.name{
+  animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+  0% {
+    text-shadow: 0 0 0 #ffffff50;
+  }
+  50% {
+    text-shadow: 0 0 30px #ffffff;
+  }
+  100% {
+    text-shadow: 0 0 0 #ffffff50;
+  }
 }
